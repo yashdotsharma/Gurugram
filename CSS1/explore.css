@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    font-family: 'Kalam', cursive;
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  html{
+    overflow-x: hidden;
+    font-size: 10px;
+  }
+  
+  .heading{
+    color:#333;
+    font-size: 40px;
+    padding: 1rem;
+    padding-top: 100px;
+    text-align: center;
+    letter-spacing: .2rem;
+  }
+  span{
+      font-size: 50px;
+  }
+  .heading span{
+      font-size: 50px;
+    color:#0098a1;
+  }
+/* Header Starts */
+header{
+    width: 99%;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:20px; left:50%;
+    transform: translateX(-50%);
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    padding:.3rem 2rem;
+    transition: .2s linear;
+    z-index: 1000;
+  }
+  
+  .header-active{
+    top:0;
+    width:100%;
+    border-radius: 0;
+  }
+  
+  header .logo{
+    color:#333;
+    font-size: 3rem;
+  }
+  
+  header .logo span{
+    color:#0098a1;
+  }
+  
+  header .navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0; padding:0;
+  }
+  
+  header .navbar ul li{
+    margin:0 1rem;
+  }
+  
+  header .navbar ul li a{
+    font-size: 2rem;
+    color:#333;
+    transition: .2s linear;
+  }
+  
+  
+  header .navbar ul li .active,
+  header .navbar ul li a:hover{
+    color: #0098a1;
+  }
+  
+  header .fa-bars{
+    font-size: 3rem;
+    color:#0098a1;
+    cursor: pointer;
+    display: none;
+  }
+  /*------------------ history starts----------------  */
+  .history{
+    top: 20px;
+    min-height: 100vh;
+    background-color: darkseagreen;
+  }
+  
+  .history .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:90%;
+    margin:0 auto;
+    
+  }
+  .history .row .image img{
+    height:65vh;
+    width: 50px;
+  }
+  
+ .history .content{
+     width: 60%;
+ }
+  
+  .history .content h3{
+    font-size: 4rem;
+    color:#0098a1;
+  }
+  
+  .history .content p{
+    font-size: 1.9rem;
+    color:#333;
+  }
+  
+
+  /*------------------------- history end  -----------------------------*/
